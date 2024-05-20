@@ -39,7 +39,7 @@ const Nav = () => {
   const pathname = router.pathname;
 
   return <nav className='flex flex-col items-center xl:justify-center gap-y-4
-  fixed h-max bottom-0 mt-auto xl:right-[2%] z-50 top-0 w-full xl:h-screen p-20
+  fixed h-max bottom-0 mt-auto xl:right-[2%] z-50 top-0 w-full xl:h-screen 
   xl:w-16 xl:max-w-md'>
     {/*inner*/}
     <div className='flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-[80px] xl:h-max py-8
