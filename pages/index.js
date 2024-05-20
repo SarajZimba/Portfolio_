@@ -22,7 +22,7 @@ const Home = () => {
       xl:text-left h-full container mx-auto'>
         {/* title */}
         <motion.h1 variants={fadeIn('down', 0.2)} initial='hidden' animate='show' exit='hidden' className='h1'>
-          Hello <br /> I am <span className='text-yellow-400/100'>Saraj Gimba</span>
+          Transforming Ideas <br /> Into <span className='text-accent'>Digital Reality</span>
         </motion.h1>
         {/* subtitle */}
         <motion.p variants={fadeIn('down', 0.3)} initial='hidden' animate='show' exit='hidden' className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>
