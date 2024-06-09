@@ -117,7 +117,7 @@ const About = () => {
       <div className='flex-1 flex flex-col justify-center'>
         {/* text */}
         <motion.h2 variants={fadeIn('right', 0.2)} initial='hidden' animate='show' exit='hidden' className="h2">Captivating <span className="text-accent">stories</span> birth magnificent designs.</motion.h2>
-        <motion.p variants={fadeIn('right', 0.4)} initial='hidden' animate='show' exit='hidden' className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">10 years ago, I began freelancing as a developer. Since then, I've done remote work for agencies, consulted for startups, and 
+        <motion.p variants={fadeIn('right', 0.4)} initial='hidden' animate='show' exit='hidden' className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">10 years ago, I began freelancing as a developer. Since then, I did remote work for agencies, consulted for startups, and 
           collaborated on digital products for business and consumer use.
         </motion.p>
         {/* counters */}
@@ -191,7 +191,7 @@ const About = () => {
               <div className="flex gap-x-4">
               {/* icons */}
               {item.icons?.map((icon, itemIndex)=>{
-                return <div className="text-2xl text-white">{icon}</div>
+                return <div key={itemIndex} className="text-2xl text-white">{icon}</div>
               })}
               </div>
             </div>
