@@ -24,7 +24,7 @@ const Home = () => {
           exit="hidden"
           className="h1"
         >
-          Hi, I'm a <br />
+          Hi, I am a <br />
           <span className="text-accent">Backend Developer.</span>
           <br />
           I build reliable systems.
