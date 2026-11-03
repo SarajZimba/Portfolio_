@@ -163,7 +163,7 @@ const About = () => {
             exit="hidden"
             className="max-w-[550px] mx-auto xl:mx-0 mb-6 xl:mb-10 px-2 xl:px-0 text-white/70"
           >
-            I'm a Backend Developer specializing in Python and Django,
+            I am a Backend Developer specializing in Python and Django,
             with 3+ years of experience building and delivering production
             web applications.
 
