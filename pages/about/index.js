@@ -62,7 +62,6 @@ export const aboutData = [
       },
     ],
   },
-
   {
     title: "experience",
     info: [
@@ -88,7 +87,6 @@ export const aboutData = [
       },
     ],
   },
-
   {
     title: "education",
     info: [
@@ -102,7 +100,6 @@ export const aboutData = [
       },
     ],
   },
-
   {
     title: "achievements",
     info: [
@@ -137,13 +134,13 @@ const About = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
+    <div className="relative min-h-screen bg-primary/30 py-24 md:py-32 text-center xl:text-left overflow-x-hidden">
       <Circles />
 
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-12">
+      <div className="container mx-auto px-4 flex flex-col xl:flex-row items-center gap-y-12 xl:gap-x-12">
 
         {/* LEFT CONTENT */}
-        <div className="flex-1 flex flex-col justify-center">
+        <div className="w-full xl:flex-1 flex flex-col justify-center">
 
           <motion.h2
             variants={fadeIn("right", 0.2)}
@@ -226,7 +223,7 @@ const About = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="flex flex-col w-full xl:max-w-[48%] min-h-[480px]"
+          className="w-full xl:max-w-[48%] flex flex-col min-w-0"
         >
 
           {/* TABS */}
@@ -249,7 +246,7 @@ const About = () => {
           </div>
 
           {/* TAB CONTENT */}
-          <div className="py-2 xl:py-6 flex flex-col gap-y-6 items-center xl:items-start">
+          <div className="w-full py-4 xl:py-6 pb-8 flex flex-col gap-y-6 items-center xl:items-start">
 
             {aboutData[index].info.map((item, itemIndex) => (
               <div
